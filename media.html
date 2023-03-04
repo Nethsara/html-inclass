@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <figure>
+      <img
+        src="assets/images/castle.jpg"
+        alt="castle"
+        width="50%"
+        height="25%"
+        title="Castle"
+      />
+      <figcaption>Castle</figcaption>
+    </figure>
+
+    <picture>
+      <source media="(max-width: 799px)" srcset="assets/images/castle.jpg" />
+    </picture>
+
+    <video src="assets/videos/tunnel.mp4" type="video/mp4" autoplay controls>
+      <track
+        default
+        kind="subtitles"
+        src="assets/subtitles/sub.vtt"
+        srclang="en"
+        label="English"
+      />
+    </video>
+
+    <audio src="assets/music/girlfriend.mp3" type="audio/mp3" controls></audio>
+
+    <a href="https://www.google.com">Go Google</a>
+
+    <form>
+      <input type="text" name="title" placeholder="Title" />
+      <label for="title">Enter title</label>
+      <input type="text" name="author" placeholder="Author" />
+      <label for="author">Enter author</label>
+      <input type="checkbox" name="asada" placeholder="Asada?" />
+      <input type="color" name="color" placeholder="Mona patada?" />
+      <input type="month" name="month" id="month" />
+      <input type="search" name="search" id="search" />
+      <input type="password" name="pass" id="pass" />
+      <input type="email" name="email" id="email" />
+      <input type="submit" value="Go!" />
+    </form>
+  </body>
+</html>

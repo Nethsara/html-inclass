@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form_holder">
+      <form action="mailto:nethsarasiyum2@gmail.com" method="POST">
+        <div class="form_field">
+          <label for="name" class="form_label">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <br />
+        <div class="form_field">
+          <label for="email" class="form_label">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <br />
+        <div class="form_field">
+          <label for="nic" class="form_label">NIC</label>
+          <input type="number" name="nic" id="nic" />
+        </div>
+
+        <br />
+
+        <div class="form_field">
+          <label for="phone" class="form_label">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+
+        <br />
+
+        <div class="form_field">
+          <label for="reg_date" class="form_label">Registered Date</label>
+          <input type="date" name="reg_date" id="reg_date" />
+        </div>
+
+        <div class="form_field">
+          <label for="where" class="form_label"
+            >Where should I put my shoes?</label
+          >
+          <select name="where" id="where">
+            <option value="head">In your head</option>
+            <option value="foot">In your foot</option>
+          </select>
+        </div>
+
+        <div class="form_field">
+          <label for="text" class="form_label">What color is sky?</label>
+          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <br />
+    <hr />
+
+    <form oninput="result.value=parseInt(a.value) + parseInt(b.value)">
+      <input type="text" id="b" value="0" />
+      <output name="result" for="b">0</output>
+    </form>
+
+    <br />
+    <hr />
+
+    <select name="text" id="text">
+      <optgroup label="Languages">
+        <option value="java">Java</option>
+        <option value="js">JS</option>
+      </optgroup>
+
+      <optgroup label="FrameWorks">
+        <option value="react">React</option>
+      </optgroup>
+    </select>
+
+    <br />
+    <hr />
+  </body>
+</html>
