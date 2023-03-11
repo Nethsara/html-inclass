@@ -1,0 +1,31 @@
+/* type selector */
+h1 {
+  color: red;
+}
+p {
+  font-size: 20px;
+}
+
+/* class selectors */
+.main-text {
+  color: blue;
+}
+
+/* id selector */
+#first-p {
+  color: blueviolet;
+}
+
+/* universal selector */
+* {
+  background-color: bisque;
+}
+
+/* attribute selector */
+h2[att] {
+  color: brown;
+}
+
+h2[att="hi"] {
+  color: rgb(104, 49, 215);
+}
